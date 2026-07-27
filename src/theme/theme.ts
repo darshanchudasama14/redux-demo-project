@@ -1,0 +1,52 @@
+export const Colors = {
+  primary: '#21D07A',
+  primaryDark: '#1AA862',
+  primaryLight: '#E8FDF3',
+  buttonBlack: '#000000',
+  background: '#F8F9FA',
+  whiteBackground: '#FFFFFF',
+  cardBackground: '#FFFFFF',
+  inputBackground: '#F4F5F7',
+  inputBorder: '#E5E7EB',
+  textPrimary: '#111827',
+  textSecondary: '#6B7280',
+  textMuted: '#9CA3AF',
+  textLight: '#4B5563',
+  border: '#E5E7EB',
+  borderLight: '#F3F4F6',
+  heartActive: '#E53935',
+  heartInactive: '#9CA3AF',
+  white: '#FFFFFF',
+  black: '#000000',
+  error: '#EF4444',
+  success: '#10B981',
+  chipActive: '#111827',
+  chipActiveText: '#FFFFFF',
+  chipInactive: '#F3F4F6',
+  chipInactiveText: '#4B5563',
+  shadowColor: '#000000',
+};
+
+export const Typography = {
+  plieLogo: {
+    fontSize: 32,
+    fontWeight: '800' as const,
+    color: Colors.textPrimary,
+    letterSpacing: -0.5,
+  },
+  plieTagline: {
+    fontSize: 10,
+    fontWeight: '600' as const,
+    color: Colors.textSecondary,
+    letterSpacing: 2,
+  },
+  greetingTitle: {
+    fontSize: 22,
+    fontWeight: '700' as const,
+    color: Colors.textPrimary,
+  },
+  greetingSubtitle: {
+    fontSize: 13,
+    color: Colors.textSecondary,
+  },
+};
